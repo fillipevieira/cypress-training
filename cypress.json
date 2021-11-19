@@ -1,0 +1,10 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "defaultCommandTimeout": 10000,
+    "baseUrl": "http://demo.realworld.io/#/",
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+}
